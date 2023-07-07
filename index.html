@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/reset.css"/>
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <title>Advanced Quizlet</title>
+</head>
+<body>
+    <h1>Code Quiz</h1>
+    <div id="timer">Timer&nbsp<span id="time">60</span>&nbspseconds</div>
+    <div id="question-container">
+        <section id="question"></section>
+        <section id="options"></section>
+    </div>
+    <div id="start-button-container">
+        <button id="start">Start Game</button>
+    </div>
+    <section id="end-screen" style="display: none;">
+      <h2>Game Over!</h2>
+      <p>Your score: <span id="score"></span></p>
+      <label for="initials">Enter initials:</label>
+      <input type="text" id="initials">
+      <button id="save">Save</button>
+    </section>
+    <section id="scores">
+        <h2>High Scores</h2>
+        <ul id="high-scores"></ul>
+    </section>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
